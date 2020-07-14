@@ -17,12 +17,12 @@ time.sleep(5)
 
 # sign in to user account
 clicker.find_element_by_xpath('//button[@name="login"]').click()
-clicker.find_element_by_xpath('//input[@class="textbox autofocus"]').send_keys('TesterAcct')
+clicker.find_element_by_xpath('//input[@class="textbox autofocus"]').send_keys(AcctName)
 clicker.find_element_by_xpath('//button[@type="submit"]').click()
 time.sleep(2)
 
 # enter in password and log in
-clicker.find_element_by_xpath('//input[@type="password"]').send_keys('password')
+clicker.find_element_by_xpath('//input[@type="password"]').send_keys(AcctPassword)
 clicker.find_element_by_xpath('//strong[text()="Log in"]').submit()
 time.sleep(2)
 
