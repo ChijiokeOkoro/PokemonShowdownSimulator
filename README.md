@@ -1,6 +1,8 @@
 # PokemonShowdownSimulator
 Simulates a user playing pokemon showdown challenge cup 1v1
 
+Requires user to insert their own username and password in order to execute code
+
 ChallengeCupSimulator - executor
 
 PokemonMoveCalculator - main function that determines the move used in a battle based on STAB, base power, and type effectiveness
